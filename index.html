@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Runify | Gamified Running Experience</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">RUNIFY</div>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#experience">Experience</a>
+    <a href="#mvp">Early Access</a>
+    <a href="#vision">Vision</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Turn Running Into<br><span>A Game You’ll Never Quit</span></h1>
+    <p>Runify uses gamification, rewards, and competition to make running addictive.</p>
+    <button onclick="scrollToAccess()">Get Early Access</button>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" class="features">
+  <h2>Core Features</h2>
+  <div class="cards">
+    <div class="card">🗺️ Territory Capture</div>
+    <div class="card">🔥 Streak System</div>
+    <div class="card">🏆 Leaderboards</div>
+    <div class="card">🎁 Real Rewards</div>
+    <div class="card">👥 Social Clubs</div>
+    <div class="card">📊 AI Training Plans</div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="experience">
+  <h2>The Runify Experience</h2>
+  <div class="timeline">
+    <div class="step">Sign Up & Set Goals</div>
+    <div class="step">Run & Track via GPS</div>
+    <div class="step">Earn XP & Badges</div>
+    <div class="step">Compete & Level Up</div>
+  </div>
+</section>
+
+<!-- MVP -->
+<section id="mvp" class="mvp">
+  <h2>Join Early Access</h2>
+  <p>Be among the first 100 users and unlock exclusive launch rewards.</p>
+  <form onsubmit="saveEmail(event)">
+    <input type="email" id="email" placeholder="your@email.com" required>
+    <button type="submit">Request Access</button>
+  </form>
+  <p id="msg"></p>
+</section>
+
+<!-- VISION -->
+<section id="vision" class="vision">
+  <h2>Our Vision</h2>
+  <p>
+    We envision a future where fitness is not forced but played.
+    Runify blends technology, psychology, and rewards to build
+    lifelong fitness habits.
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Runify | Gamified Fitness Platform</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
